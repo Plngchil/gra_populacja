@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: lightyellow;
+}
+#div1, #div2{
+    border: 1px solid black;
+    width: 350px;
+    height: 555px;
+    background-color: #f2efcb;
+    padding: 50px;
+}
+#flexParent{
+    display: flex;
+    justify-content: space-evenly;
+}
+#info{
+    background-color: #f2efcb;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+button{
+    padding: 20px;
+    background-color: #f2efcb;
+    border: none;
+    border-radius: 50px;
+}
