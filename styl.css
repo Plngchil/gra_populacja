@@ -17,8 +17,7 @@ body{
 }
 #info{
     background-color: #f2efcb;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     width: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
