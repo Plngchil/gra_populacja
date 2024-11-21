@@ -65,9 +65,11 @@ async function wywswietlanie() {
             if(population1 > population2){
                 goodAnsw++;
                 div1.style.backgroundColor = 'green';
+                div2.style.backgroundColor = 'red'
             } else {
                 badAnsw++;
                 div1.style.backgroundColor = 'red';
+                div2.style.backgroundColor = 'green'
             }
             populacja1.innerHTML = `Population: ${population1}`;
             populacja2.innerHTML = `Population: ${population2}`;
@@ -80,9 +82,11 @@ async function wywswietlanie() {
             if(population2 > population1){
                 goodAnsw++;
                 div2.style.backgroundColor = 'green';
+                div1.style.backgroundColor = 'red'
             } else {
                 badAnsw++;
                 div2.style.backgroundColor = 'red';
+                div1.style.backgroundColor = 'green'
             }
             populacja1.innerHTML = `Population: ${population1}`;
             populacja2.innerHTML = `Population: ${population2}`;
